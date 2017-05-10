@@ -1,44 +1,22 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>¡Tu peso en otro planeta!</title>
-	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-	<style type="text/css">
-		body{
-		background-color: #064b72;
-		text-align: center;
-		font-family: 'Roboto', sans-serif;
-		color: #FFFFFF;
-		line-height: 23px;
-		margin-top: 100px;
-		}
-	</style>
+	<title>Calcular peso en otros planetas</title>
 </head>
 <body>
-	<h1>Tu peso en otro planeta</h1>
-	<p>En el planeta Tierra pesas distinto a lo que pesas en otros planetas.</p>
-	
-	<div id="contenedor" alig="center">
-	<label for="peso">Ingresa tu peso actual (valor Tierra)</label>
-	<input id="peso" required><br>
-	<label for="planetas">
-		<select id="planetas" required>
-			<option disabled selected value="">Selecciona un planeta</option>
-			<option value="3.7">Mercurio</option>
-			<option value="8.87">Venus</option>
-			<option value="3.7">Marte</option>
-			<option value="24.8">Jupiter</option>
-			<option value="10.44">Saturno</option>
-			<option value="8.7">Urano</option>
-			<option value="11.15">Mercurio</option>
-
-		</select>
-	</label><br>
-	<button onclick="calcular()">Calcular</button>
-		</center>
-
-	</div>
-	<script type="text/javascript" src="assets/main.js"></script>
+	<h1>Calcula tu peso en diferentes planetas</h1>
+	<input type="text" name="peso" id="peso">
+	<select id="elegir-planeta" name="planeta">
+		<option value="mercurio">mercurio</option>
+		<option value="venus">Venus</option>
+		<option value="marte">Marte</option>
+		<option value="jupiter">Júpiter</option>
+		<option value="saturno">Saturno</option>
+		<option value="urano">Urano</option>
+		<option value="neptuno">Neptuno</option>
+		<option value="pluton">Plutón</option>
+	</select>
+	<button type="button" onclick="elPeso(); return false">Conoce tu peso</button>
 </body>
 </html>
