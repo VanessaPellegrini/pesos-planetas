@@ -28,3 +28,4 @@ function calcular_peso(){
 
 	}
 }
+calcular_peso();
