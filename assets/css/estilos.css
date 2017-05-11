@@ -4,14 +4,23 @@ html, body {
 }
 
 body {
-    background: url("http://3.bp.blogspot.com/-PMIWSPUh1Us/TWFcDEJtzbI/AAAAAAAABjg/QVe5LQyAxrM/s1600/Wallpapersdelespacio+%2528147%2529.jpg");
+    background: #000000 url("http://3.bp.blogspot.com/-PMIWSPUh1Us/TWFcDEJtzbI/AAAAAAAABjg/QVe5LQyAxrM/s1600/Wallpapersdelespacio+%2528147%2529.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
     padding: 1em;
+    font-family: sans-serif;
 }
 
-h1{
+h1 {
     color: #FFFFFF;
+}
 
+footer {
+    position: fixed;
+    bottom: 1em;
+    width: 100%;
+    text-align: center;
+    color: #FFFFFF;
+    background: #000000;
 }
