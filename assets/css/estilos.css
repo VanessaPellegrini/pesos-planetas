@@ -1,0 +1,17 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url("http://3.bp.blogspot.com/-PMIWSPUh1Us/TWFcDEJtzbI/AAAAAAAABjg/QVe5LQyAxrM/s1600/Wallpapersdelespacio+%2528147%2529.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 1em;
+}
+
+h1{
+    color: #FFFFFF;
+
+}
